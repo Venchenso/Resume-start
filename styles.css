@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif; 
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.btn {
+    background: #0f141e;
+    border: none;
+    color: #f1f1f1;
+    padding: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: orange;
+    opacity: 0.7;
+}
+
+.btn:visited {
+    color: rgb(223, 59, 44);
+    opacity: 0.1;
+}
+
+
+.a {
+    color: rgba(0, 0, 0, 0.397);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a:hover {
+     color: brown;
+     opacity: 0.5;
+}
+
+.a:active {
+    color: yellow;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+.info {
+    padding-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin: 10px 0 0 20px;
+}
+
+.info-text p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(18, 15, 12, 0.511);
+    
+    
+}
+
+.otstup {
+   margin-bottom: 20px;
+    
+}
+
+@media (max-width: 520px) {
+    .info {
+    display: block;
+    text-align: center;
+    }
+}
+
+
+.card {
+    
+    
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.bor1 {
+    border: 2px solid rgba(88, 167, 105, 0.266);
+    background-color: rgba(88, 167, 105, 0.266);
+    padding: 20px 80px;
+    margin-bottom: 20px;
+    
+}
+
+.bor1 ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bor2 {
+    border: 2px solid rgba(106, 145, 161, 0.266);
+    background-color: rgba(113, 159, 178, 0.266);
+    padding: 20px 80px;
+    margin-bottom: 20px;
+    
+}
+
+.bor2 table {
+    text-align: left;
+    width: 100%;
+}
+
+.bor2 td:nth-child(1), .bor2 td:nth-child(3) {
+    background: 86898fr;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    width: 200px;   
+}
+
+.form  h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #1716164e;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+    color: rgb(0, 0, 0);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
